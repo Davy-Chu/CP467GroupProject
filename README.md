@@ -1,5 +1,5 @@
 # CP467GroupProject
-Group Project repository for CP467A, taught by prof. Zia Ud Din, Group members: David Hu, Jacob Jung, Roshni Mahindru, Paarth Baaga, Linda Basha
+Group Project repository for CP467A, taught by prof. Zia Ud Din, Group members: David Hu, Jacob Jung, Roshni Mahindru, Paarth Bagga, Linda Basha
 # Traffic Sign Recognition: Classical vs Deep Learning
 
 This project compares a classical computer vision approach with a deep learning approach for traffic sign recognition using the German Traffic Sign Recognition Benchmark (GTSRB).
