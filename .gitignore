@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+# Temporary training output; final artifacts in models/ remain trackable.
+checkpoints/
+runs/
+wandb/
+*.ckpt
+*.tmp
+*.log
+# Do not commit credentials or copies of transformed datasets.
+credentials.json
+token.json
+kaggle.json
+Dataset/generated/
