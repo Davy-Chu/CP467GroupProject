@@ -1,0 +1,75 @@
+{
+  "model": "HOG + SVM",
+  "random_seed": 42,
+  "image_size": [
+    32,
+    32
+  ],
+  "num_classes": 4,
+  "split_id": "a6456f4be8d5cfc7",
+  "hog_parameters": {
+    "orientations": 9,
+    "pixels_per_cell": [
+      8,
+      8
+    ],
+    "cells_per_block": [
+      2,
+      2
+    ],
+    "block_norm": "L2-Hys"
+  },
+  "degradation_parameters": {
+    "brightness": {
+      "factor": 0.5
+    },
+    "noise": {
+      "std": 0.05
+    },
+    "motion_blur": {
+      "kernel_size": 9
+    }
+  },
+  "best_svm_parameters": {
+    "memory": null,
+    "steps": [
+      [
+        "standardscaler",
+        "StandardScaler()"
+      ],
+      [
+        "svc",
+        "SVC(C=10)"
+      ]
+    ],
+    "transform_input": null,
+    "verbose": false,
+    "standardscaler": "StandardScaler()",
+    "svc": "SVC(C=10)",
+    "standardscaler__copy": true,
+    "standardscaler__with_mean": true,
+    "standardscaler__with_std": true,
+    "svc__C": 10,
+    "svc__break_ties": false,
+    "svc__cache_size": 200,
+    "svc__class_weight": null,
+    "svc__coef0": 0.0,
+    "svc__decision_function_shape": "ovr",
+    "svc__degree": 3,
+    "svc__gamma": "scale",
+    "svc__kernel": "rbf",
+    "svc__max_iter": -1,
+    "svc__probability": false,
+    "svc__random_state": null,
+    "svc__shrinking": true,
+    "svc__tol": 0.001,
+    "svc__verbose": false
+  },
+  "timing": {
+    "num_images": 20,
+    "average_ms": 8.327166449907963,
+    "median_ms": 8.099323499664024,
+    "total_seconds": 0.16654332899815927
+  },
+  "evaluation_split": "validation"
+}
