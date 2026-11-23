@@ -1,1 +1,5 @@
 model,condition,preprocessing,accuracy,macro_f1,training_time_seconds,inference_time_ms,seed,split_id
+cnn,clean,none,0.9398,0.9078,36.5,0.0381,42,2947e8e993860c74
+cnn,brightness,none,0.9124,0.8707,36.5,0.0381,42,2947e8e993860c74
+cnn,noise,none,0.8994,0.8625,36.5,0.0381,42,2947e8e993860c74
+cnn,motion_blur,none,0.7382,0.6980,36.5,0.0381,42,2947e8e993860c74
