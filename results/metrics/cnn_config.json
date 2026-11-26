@@ -1,0 +1,35 @@
+{
+  "model": "CNN",
+  "random_seed": 42,
+  "image_size": [
+    32,
+    32
+  ],
+  "num_classes": 43,
+  "split_id": "43b66458595c7cd9",
+  "degradation_parameters": {
+    "brightness": {
+      "factor": 0.5
+    },
+    "noise": {
+      "std": 0.05
+    },
+    "motion_blur": {
+      "kernel_size": 9
+    }
+  },
+  "epochs": 10,
+  "learning_rate": 0.001,
+  "batch_size": 64,
+  "best_epoch": 10,
+  "best_validation_accuracy": 0.9936240754909462,
+  "training_time_seconds": 723.5414480229999,
+  "timing": {
+    "num_images": 20,
+    "average_ms": 3.2169215500175596,
+    "median_ms": 2.7670955000758113,
+    "total_seconds": 0.06433843100035119
+  },
+  "device": "cpu",
+  "evaluation_split": "validation"
+}
