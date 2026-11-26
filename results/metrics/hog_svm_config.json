@@ -5,8 +5,8 @@
     32,
     32
   ],
-  "num_classes": 4,
-  "split_id": "a6456f4be8d5cfc7",
+  "num_classes": 43,
+  "split_id": "43b66458595c7cd9",
   "hog_parameters": {
     "orientations": 9,
     "pixels_per_cell": [
@@ -67,9 +67,9 @@
   },
   "timing": {
     "num_images": 20,
-    "average_ms": 8.327166449907963,
-    "median_ms": 8.099323499664024,
-    "total_seconds": 0.16654332899815927
+    "average_ms": 11.716250550034601,
+    "median_ms": 11.58768949972,
+    "total_seconds": 0.23432501100069203
   },
   "evaluation_split": "validation"
 }
